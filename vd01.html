@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>XML vi du 1</title>
+	<script>
+	dom = new ActiveXObject("Microsoft.XMLDOM");
+	dom.async = false;
+	dom.load("vd.xml");
+	chap_title = dom.getElementsByTagNam("chapter_title").item(1).firstChild.nodeValue;
+	document.write(chap_title);
+	chap = dom.getElementsByTagNam("chapter").item(1);
+	att = chap.getAttribute("codeid");
+	document.write(att);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

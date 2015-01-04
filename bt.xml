@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<STORE>
+	<BRANCH LOCATION="HCMC">
+		<EMPLOYEES>
+			<EMPLOYEE ID="EMP01">
+				<NAME>Dinh Vu Hong Nhung</NAME>
+				<POSITION>Manager</POSITION>
+				<SALARY>200</SALARY>
+			</EMPLOYEE>
+			<EMPLOYEE ID="EMP02">
+				<NAME>Pham Hoang</NAME>
+				<POSITION>Warehouse keeper</POSITION>
+				<SALARY>200</SALARY>
+			</EMPLOYEE>
+			<EMPLOYEE ID="EMP03">
+				<NAME>Dao Thi Xuan</NAME>
+				<POSITION>Consultant</POSITION>
+				<SALARY>50</SALARY>
+			</EMPLOYEE>
+			<EMPLOYEE ID="EMP04">
+				<NAME>Nguyen Van Teo</NAME>
+				<POSITION>CEO</POSITION>
+				<SALARY>800</SALARY>
+			</EMPLOYEE>
+			<EMPLOYEE ID="EMP05">
+				<NAME>Tran Van Hung</NAME>
+				<POSITION>Administrator</POSITION>
+				<SALARY>580</SALARY>
+			</EMPLOYEE>
+		</EMPLOYEES>
+		<CUSTOMERS>
+			<CUSTOMER ID="CUS01">
+
+				<FIRSTNAME>Nhung</FIRSTNAME>
+				<LASTNAME>Dinh</LASTNAME>
+				<PRODUCTS>
+					<PRODUCT ID="PRO01">
+						<NAME>DTDD</NAME>
+						<QUANTITY>5</QUANTITY>
+						<PRICE>20</PRICE>
+					</PRODUCT>
+					<PRODUCT ID="PRO04">
+						<NAME>Computer</NAME>
+						<QUANTITY>10</QUANTITY>
+						<PRICE>50</PRICE>
+					</PRODUCT>
+					<PRODUCT ID="PRO07">
+						<NAME>USB</NAME>
+						<QUANTITY>80</QUANTITY>
+						<PRICE>10</PRICE>
+					</PRODUCT>
+				</PRODUCTS>
+
+			</CUSTOMER>
+			<CUSTOMER ID="CUS02">
+					<FIRSTNAME>Hoang</FIRSTNAME>
+					<LASTNAME>Pham</LASTNAME>
+					<PRODUCTS>
+						<PRODUCT ID="PRO05">
+							<NAME>Fridge</NAME>
+							<QUANTITY>9</QUANTITY>
+							<PRICE>100</PRICE>
+						</PRODUCT>
+						<PRODUCT ID="PRO01">
+							<NAME>DTDD</NAME>
+							<QUANTITY>10</QUANTITY>
+							<PRICE>20</PRICE>
+						</PRODUCT>
+						<PRODUCT ID="PRO04">
+							<NAME>Computer</NAME>
+							<QUANTITY>10</QUANTITY>
+							<PRICE>50</PRICE>
+						</PRODUCT>
+					</PRODUCTS>
+			</CUSTOMER>
+			<CUSTOMER ID="CUS03">
+					<FIRSTNAME>Xuan</FIRSTNAME>
+					<LASTNAME>Dao</LASTNAME>
+					<PRODUCTS>
+						<PRODUCT ID="PRO01">
+							<NAME>DTDD</NAME>
+							<QUANTITY>5</QUANTITY>
+							<PRICE>20</PRICE>
+						</PRODUCT>
+						<PRODUCT ID="PRO05">
+							<NAME>Fridge</NAME>
+							<QUANTITY>9</QUANTITY>
+							<PRICE>100</PRICE>
+						</PRODUCT>
+						<PRODUCT ID="PRO01">
+							<NAME>DTDD</NAME>
+							<QUANTITY>10</QUANTITY>
+							<PRICE>20</PRICE>
+						</PRODUCT>
+					</PRODUCTS>
+			</CUSTOMER>
+		</CUSTOMERS>
+	</BRANCH>
+</STORE>
